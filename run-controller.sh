@@ -2,4 +2,4 @@
 
 cd $SNAP
 pwd
-python3 -m controller.Controller -c ./config/ipop-config.json
+python3 -m controller.Controller -c /home/vd/Desktop/config.json

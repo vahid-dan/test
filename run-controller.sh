@@ -6,6 +6,8 @@ echo $SNAP_USER_DATA
 
 sudo echo "sudo echo successfull"
 
+ifconfig
+
 sudo ovs-vsctl add-br snapipop 2>&1 | tee $SNAP_USER_DATA/ovs.log
 
 cd $SNAP

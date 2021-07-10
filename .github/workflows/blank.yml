@@ -34,3 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          ping 8.8.8.8 -c 3

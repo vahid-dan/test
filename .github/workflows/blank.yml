@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          curl -fsS -m 10 --retry 5 -o /dev/null https://hc-ping.com/da9a7a40-1311-47d0-92fe-e7bd5d500b83
+          curl https://api.github.com/repos/FLARE-forecast/FCRE-data/commits/fcre-metstation-data
